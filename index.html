@@ -4,41 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <title>Jogo da Velha</title>
   </head>
   <body>
     <h1>Jogo Da Velha</h1>
     <div>
-      <div id="1">-</div>
-      <div id="2">-</div>
-      <div id="3">-</div>
+      <div id="1" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="2" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="3" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
     </div>
+
     <div>
-      <div id="4">-</div>
-      <div id="5">-</div>
-      <div id="6">-</div>
+      <div id="4" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="5" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="6" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
     </div>
+
     <div>
-      <div id="7">-</div>
-      <div id="8">-</div>
-      <div id="9">-</div>
+      <div id="7" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="8" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
+      <div id="9" class="quadrado" onclick="escolherquadrado(this.id)">-</div>
     </div>
-    <div>
+
+    <div class="jogador">
       <label for="">Jogador: </label>
       <label id="jogador_selecionado"></label>
     </div>
-    <div>
+
+    <div class="vencedor">
       <label for="">Vencedor: </label>
       <label id="vencedor_selecionado"></label>
     </div>
+
     <div>
       <button>Reiniciar</button>
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>
