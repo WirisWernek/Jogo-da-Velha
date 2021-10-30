@@ -4,4 +4,4 @@
     <img src="./src/image.png" >
 </a>
 <br>
-<p style="text-align: center;;">Jogo da Velha desenvolvido com HTML, CSS e JavaScript.</p>
+Jogo da Velha desenvolvido com HTML, CSS e JavaScript.
